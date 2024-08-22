@@ -1,0 +1,14 @@
+.container{
+    width: 670px;
+    height: 163px;
+    display: flex;
+
+    .img{
+        align-self: flex-end;
+    }
+    .arrow{
+        margin-left: 31px;
+        width: 58px;
+        height: 58px;
+    }
+}

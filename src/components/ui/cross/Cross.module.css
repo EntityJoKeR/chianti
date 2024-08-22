@@ -1,0 +1,8 @@
+.container{
+    width: 141px;
+    height: 141px;
+    background-color: inherit;
+    .img{
+        opacity: 50%;
+    }
+}
