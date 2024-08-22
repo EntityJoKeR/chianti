@@ -1,11 +1,19 @@
 .container{
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display";
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
     color: #E1DFE0;
     display: flex;
     align-items: center;
+    width: 335px;
+    height: 55px;
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E1DFE0;
+    opacity: 60%;
 
     .img{
         margin-left: 9px;
