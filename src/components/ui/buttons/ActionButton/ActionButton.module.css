@@ -1,0 +1,21 @@
+.container{
+    width: 185px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #DA2328;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s linear;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    
+    &:hover{
+        background-color: #a3181c;
+        transform: scale(1.1);
+    }
+
+}
