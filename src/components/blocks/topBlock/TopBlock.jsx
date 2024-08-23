@@ -9,7 +9,7 @@ const TopBlock = () => {
     return (
         <div className={styles.container}>
             <img src="/mainImg.svg" className={styles.img}/>
-            <div className={styles.contentBlock}>
+            <div className={styles.content}>
                 <MainLogo></MainLogo>
                 <p className={styles.text}>
                 Кьянти может быть на аперитив, может быть под горячее, а может быть ярким дижестивом. <br/><br/>
