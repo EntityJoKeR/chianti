@@ -8,11 +8,13 @@ import MenuLogo from "@/components/ui/logos/menuLogo/MenuLogo";
 import SomeButton from "@/components/ui/buttons/someButton/SomeButton";
 import Cross from "@/components/ui/cross/Cross";
 import MainLogo from "@/components/ui/logos/mainLogo/MainLogo";
+import TopBlock from "@/components/blocks/topBlock/TopBlock";
 
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <TopBlock/>
     </main>
   );
 }

@@ -12,6 +12,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 700;
+    margin-top: 68px; 
     
     &:hover{
         background-color: #a3181c;

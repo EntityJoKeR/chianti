@@ -1,13 +1,16 @@
+import Link from "next/link"
 import styles from "./InstagramIcon.module.css"
 
-const InstagramIcon = (props) => {
+const InstagramIcon = ({href}) => {
     
     return (
-        <div className={styles.container}>
+        <Link href={href!==undefined?href:'#'}>
+            <div className={styles.container}>
             <div className={styles.inner}>
-                <img src="/InstagramLogo.svg" className={styles.img}/>
+                    <img src="/InstagramLogo.svg" className={styles.img}/>
+                </div>
             </div>
-        </div>
+        </Link>
         )
 }
 

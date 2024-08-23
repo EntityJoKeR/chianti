@@ -1,13 +1,16 @@
+import Link from "next/link"
 import styles from "./WhatsappIcon.module.css"
 
-const WhatsappIcon = (props) => {
+const WhatsappIcon = ({href}) => {
     
     return (
-        <div className={styles.container}>
-            <div className={styles.inner}>
-                <img src="/WhatsappLogo.svg" className={styles.img}/>
+        <Link href={href!==undefined?href:'#'}>
+            <div className={styles.container}>
+                <div className={styles.inner}>
+                    <img src="/WhatsappLogo.svg" className={styles.img}/>
+                </div>
             </div>
-        </div>
+        </Link>
         )
 }
 

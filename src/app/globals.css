@@ -8,8 +8,12 @@
 }
 
 body{
-  max-width: var(--max-width);
   background-color: var(--dark-theme-color);
+  max-width: 1440px;
+}
+
+html{
+
 }
 
 @media (prefers-color-scheme: dark) {
