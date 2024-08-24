@@ -1,4 +1,4 @@
-import "./MainLogo.module.css"
+import "./MainLogo.css"
 
 const MainLogo = () => {
     return (

@@ -1,5 +1,5 @@
 import MainLogo from "@/components/ui/logos/mainLogo/MainLogo";
-import "./TopBlock.module.css"
+import "./TopBlock.css"
 import ActionButton from "@/components/ui/buttons/ActionButton/ActionButton";
 import TelegramIcon from "@/components/ui/icons/TelegramIcon/TelegramIcon";
 import InstagramIcon from "@/components/ui/icons/InstagramIcon/InstagramIcon";

@@ -1,4 +1,4 @@
-import "./Cross.module.css"
+import "./Cross.css"
 
 const Cross = (props) => {
     return (

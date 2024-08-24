@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "./SomeButton.module.css"
+import "./SomeButton.css"
 
 const SomeButton = () => {
     return (

@@ -1,41 +1,60 @@
-import "./BottomBlock.module.css"
+import SomeButton from "@/components/ui/buttons/someButton/SomeButton";
+import "./BottomBlock.css"
 
 const BottomBlock = () => {
     return (
         <div className="Cards">
             <div className="Card">
-                <span className="CardNum">01</span>
-                <h3 className="CardText">   
-                    Аперитив -<br/>
-                    <span className="CardWord">
-                    Welcome
-                    </span>
-                </h3>
+                <div className="CardTextBlock">
+                    <div className="CardNum">01</div>
+                    <p className="CardText">   
+                        Аперитив -<br/>
+                        <div className="CardWord">
+                        Welcome
+                        </div>
+                    </p>
+                </div>
+                <img src="/photo1.svg" className="CardPhoto"/>
+                <SomeButton/>
             </div>
 
             <div className="Card">
-                <span className="CardNum">02</span>
-                <h3 className="CardText">   
-                    Ужин -<br/>
-                    <span className="CardWord">
-                    Концерт
-                    </span>
+                <div className="CardTextBlock">
+                    <div className="CardNum">02</div>
+                    <p className="CardText">   
+                        Ужин -<br/>
+                        <div className="CardWord">
+                        Концерт
+                        </div>
+                    </p>
+                </div>
+                <img src="/photo2.svg" className="CardPhoto"/>
+                <SomeButton/>
             </div>
 
             <div className="Card">
-                <span className="CardNum">03</span>
-                <h3 className="CardText">   
-                    Дижестив -<br/>
-                    <span className="CardWord">
-                    Караоке. After party
-                    </span>
+                <div className="CardTextBlock">
+                    <div className="CardNum">03</div>
+                    <p className="CardText">   
+                        Дижестив -<br/>
+                        <div className="CardWord">
+                        Караоке. After party
+                        </div>
+                    </p>
+                </div>
+                <img src="/photo3.svg" className="CardPhoto"/>
+                <SomeButton/>
             </div>
 
             <div className="Card">
-                <span className="CardNum">04</span>
-                <h3 className="CardText">   
-                    Соло<br/>
-                </h3>
+                <div className="CardTextBlock">
+                    <div className="CardNum">04</div>
+                    <p className="CardText">   
+                        Соло<br/>
+                    </p>
+                </div>
+                <img src="/photo4.svg" className="CardPhoto"/>
+                <SomeButton/>
             </div>
         </div>
     );

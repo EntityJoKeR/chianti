@@ -9,12 +9,15 @@ import SomeButton from "@/components/ui/buttons/someButton/SomeButton";
 import Cross from "@/components/ui/cross/Cross";
 import MainLogo from "@/components/ui/logos/mainLogo/MainLogo";
 import TopBlock from "@/components/blocks/topBlock/TopBlock";
+import BottomBlock from "@/components/blocks/bottomBlock/BottomBlock";
 
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <TopBlock/>
-    </main>
+      <main className={styles.main}>
+      <header className={styles.header}><MenuLogo/></header>
+        <TopBlock/>
+        <BottomBlock/>
+      </main>
   );
 }

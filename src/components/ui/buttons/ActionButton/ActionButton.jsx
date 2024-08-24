@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "./ActionButton.module.css"
+import "./ActionButton.css"
 
 const ActionButton = ({href}) => {
     return (

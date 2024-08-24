@@ -1,8 +1,8 @@
-import styles from "./MenuLogo.module.css"
+import "./MenuLogo.css"
 
 const MenuLogo = () => {
     return (
-        <div className={styles.container}>
+        <div className="MenuLogo">
             <img src="/menuLogo.svg"/>
         </div>
     );
