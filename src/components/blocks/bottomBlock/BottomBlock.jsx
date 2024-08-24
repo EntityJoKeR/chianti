@@ -1,39 +1,39 @@
-import styles from "./BottomBlock.module.css"
+import "./BottomBlock.module.css"
 
 const BottomBlock = () => {
     return (
-        <div className={styles.cards}>
-            <div className={styles.card}>
-                <span className={styles.num}>01</span>
-                <h3 className={styles.text}>   
+        <div className="Cards">
+            <div className="Card">
+                <span className="CardNum">01</span>
+                <h3 className="CardText">   
                     Аперитив -<br/>
-                    <span className={styles.word}>
+                    <span className="CardWord">
                     Welcome
                     </span>
                 </h3>
             </div>
 
-            <div className={styles.card}>
-                <span className={styles.num}>02</span>
-                <h3 className={styles.text}>   
+            <div className="Card">
+                <span className="CardNum">02</span>
+                <h3 className="CardText">   
                     Ужин -<br/>
-                    <span className={styles.word}>
+                    <span className="CardWord">
                     Концерт
                     </span>
             </div>
 
-            <div className={styles.card}>
-                <span className={styles.num}>03</span>
-                <h3 className={styles.text}>   
+            <div className="Card">
+                <span className="CardNum">03</span>
+                <h3 className="CardText">   
                     Дижестив -<br/>
-                    <span className={styles.word}>
+                    <span className="CardWord">
                     Караоке. After party
                     </span>
             </div>
 
-            <div className={styles.card}>
-                <span className={styles.num}>04</span>
-                <h3 className={styles.text}>   
+            <div className="Card">
+                <span className="CardNum">04</span>
+                <h3 className="CardText">   
                     Соло<br/>
                 </h3>
             </div>
