@@ -2,8 +2,8 @@ import "./Cross.module.css"
 
 const Cross = (props) => {
     return (
-        <div className="CrossLogo">
-            <img src="/CROSS.svg" className="CrossLogoImg"/>
+        <div className="Cross">
+            <img src="/CROSS.svg" className="CrossImg"/>
         </div>
     );
 };
