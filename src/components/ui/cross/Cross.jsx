@@ -1,9 +1,9 @@
-import styles from "./Cross.module.css"
+import "./Cross.module.css"
 
 const Cross = (props) => {
     return (
-        <div className={styles.container}>
-            <img src="/CROSS.svg" className={styles.img}/>
+        <div className="CrossLogo">
+            <img src="/CROSS.svg" className="CrossLogoImg"/>
         </div>
     );
 };
