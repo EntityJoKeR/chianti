@@ -34,7 +34,7 @@ const BottomBlock = () => {
             <div className={styles.card}>
                 <span className={styles.num}>04</span>
                 <h3 className={styles.text}>   
-                    Соло
+                    Соло<br/>
                 </h3>
             </div>
         </div>
