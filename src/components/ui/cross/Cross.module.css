@@ -1,8 +1,8 @@
-.container{
+.Cross{
     width: 8.8125rem;
     height: 8.8125rem;
     background-color: inherit;
-    .img{
+    .CrossImg{
         opacity: 50%;
     }
 }
